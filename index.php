@@ -2,8 +2,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>UOB Student Nationality Data</title>
     <link rel="stylesheet" href="https://unpkg.com/pico.css">
     <style>
@@ -13,17 +11,17 @@
         }
         h1 {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 25px;
             color: #335;
         }
         table {
-            width: 90%;
-            margin: 20px auto;
+            width: 85%;
+            margin: 25px auto;
             border-collapse: collapse;
             box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
         }
         th, td {
-            padding: 12px;
+            padding: 15px;
             text-align: left;
             border-bottom: 1px solid #ddd;
         }
@@ -34,7 +32,7 @@
         tr:hover {
             background-color: #CD5C5C;
         }
-        @media (max-width: 600px) {
+        @media (max-width: 650px) {
             table, thead, tbody, th, td, tr {
                 display: block;
             }
@@ -53,7 +51,7 @@
                 content: attr(data-label);
                 position: absolute;
                 left: 10px;
-                width: 45%;
+                width: 50%;
                 padding-left: 10px;
                 font-weight: bold;
                 text-align: left;
